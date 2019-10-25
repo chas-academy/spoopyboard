@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="flex">
+      <div class="centering">
+        <header class="headline">
+          <h1>Spoopyboard</h1>
+          <h2>Chas Academy Edition</h2>
+          <p>Press the keys on your keyboard to play</p>
+        </header>
+
+        <div class="keys">
+          <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span>Mohahaha!</span>
+          </div>
+          <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span>Blood-curdling scream</span>
+          </div>
+          <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span>Spoopy sounds</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Audio -->
+      <audio data-key="65" src="./assets/audio/evil-laugh.wav"></audio>
+      <audio data-key="83" src="./assets/audio/blood-curdling-scream.wav"></audio>
+      <audio data-key="68" src="./assets/audio/spoopy-sounds.wav"></audio>
+      <!-- End Audio -->
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
